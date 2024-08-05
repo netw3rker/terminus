@@ -31,7 +31,7 @@
     "symfony/console": "^5",
     "symfony/finder": "^4",
     "symfony/process": "^6",
-    "symfony/yaml": "^5",
+    "symfony/yaml": "^6",
     "twig/twig": "^3.3",
     "consolidation/robo": "^3.0"
   },
@@ -41,7 +41,7 @@
     "erusev/parsedown": "^1.7",
     "friendsofphp/php-cs-fixer": "^3",
     "pcov/clobber": "^2.0",
-    "php-vcr/php-vcr": "~1.5.2",
+    "php-vcr/php-vcr": "^1.7",
     "phpunit/php-code-coverage": "^9.2",
     "phpunit/phpcov": "^8.2",
     "phpunit/phpunit": "^9",
