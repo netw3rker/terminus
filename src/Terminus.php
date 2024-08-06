@@ -171,7 +171,7 @@ EOD;
 
         // Add the services
         // Request
-        $container->share('request', Request::class);
+        $container->addShared('request', Request::class);
         $container->inflector(RequestAwareInterface::class)
             ->invokeMethod('setRequest', ['request']);
 
@@ -180,7 +180,7 @@ EOD;
             $this->getConfig()->get('cache_dir')
         );
         $session = new Session($session_store);
-        $container->share('session', $session);
+        $container->addShared('session', $session);
         $container->inflector(SessionAwareInterface::class)
             ->invokeMethod('setSession', ['session']);
 
@@ -202,7 +202,7 @@ EOD;
         $container->add(PluginDiscovery::class);
         $container->add(PluginInfo::class);
 
-        $container->share('sites', Sites::class);
+        $container->addShared('sites', Sites::class);
         $container->inflector(SiteAwareInterface::class)
             ->invokeMethod('setSites', ['sites']);
 
