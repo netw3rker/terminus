@@ -28,7 +28,7 @@
     "monolog/monolog": "^2.2",
     "psy/psysh": "^0.12",
     "rogervila/array-diff-multidimensional": "^2.0",
-    "symfony/console": "^5",
+    "symfony/console": "^6",
     "symfony/finder": "^5",
     "symfony/process": "^6",
     "symfony/yaml": "^6",
